@@ -1,18 +1,18 @@
 {
-  "asOf": "2026-09-24",
-  "updatedLabel": "Sep 24, 2026",
+  "asOf": "2026-10-01",
+  "updatedLabel": "Oct 1, 2026",
   "verdict": "calm",
   "verdictTitle": "No recession signal",
-  "verdictBody": "All three indicators remain well below trigger; continued and initial claims both eased to new 2026 lows in early September.",
+  "verdictBody": "All three indicators remain well below trigger; continued claims notched a fresh 2026 low and initial claims held near multi-month lows.",
   "indicators": [
-    { "key": "off", "name": "I", "sup": "Off.", "formula": "Continued claims ÷ covered employment", "threshold": 0.20, "approxPosition": 0.04, "status": "calm", "statusLabel": "Not triggered", "readout": "Official IUR eased to 1.1% (week of Sep 5), a new low for the year." },
-    { "key": "nfe", "name": "I", "sup": "NFE", "formula": "Continued claims ÷ nonfarm payrolls", "threshold": 0.20, "approxPosition": 0.05, "status": "calm", "statusLabel": "Not triggered", "readout": "Continued claims fell to 1.730M while payrolls kept growing (+162K in Aug.)." },
-    { "key": "ic", "name": "I", "sup": "IC", "formula": "Initial claims ÷ nonfarm payrolls", "threshold": 0.035, "approxPosition": 0.03, "status": "calm", "statusLabel": "Not triggered", "readout": "Initial claims eased to 197K (week of Sep 19), the lowest reading since spring." }
+    { "key": "off", "name": "I", "sup": "Off.", "formula": "Continued claims ÷ covered employment", "threshold": 0.20, "approxPosition": 0.04, "status": "calm", "statusLabel": "Not triggered", "readout": "The official IUR held near a cycle low at 1.1% (week of Sep 19)." },
+    { "key": "nfe", "name": "I", "sup": "NFE", "formula": "Continued claims ÷ nonfarm payrolls", "threshold": 0.20, "approxPosition": 0.04, "status": "calm", "statusLabel": "Not triggered", "readout": "Continued claims fell to a new 2026 low of 1.701M (week of Sep 19) while payrolls kept growing (+162K in Aug.)." },
+    { "key": "ic", "name": "I", "sup": "IC", "formula": "Initial claims ÷ nonfarm payrolls", "threshold": 0.035, "approxPosition": 0.03, "status": "calm", "statusLabel": "Not triggered", "readout": "Initial claims held near multi-month lows at 197K (week of Sep 26), below the 200K consensus." }
   ],
   "stats": [
-    { "label": "Insured Unemployment Rate", "value": "1.1%", "note": "New 2026 low, down from 1.2%", "asOf": "week of Sep 5, 2026" },
-    { "label": "Initial Claims", "value": "197K", "note": "Lowest since spring", "asOf": "week of Sep 19, 2026" },
-    { "label": "Continued Claims", "value": "1.730M", "note": "New 2026 low, down from 1.774M", "asOf": "week of Sep 5, 2026" },
+    { "label": "Insured Unemployment Rate", "value": "1.1%", "note": "Steady at cycle low", "asOf": "week of Sep 19, 2026" },
+    { "label": "Initial Claims", "value": "197K", "note": "Near multi-month low, under consensus", "asOf": "week of Sep 26, 2026" },
+    { "label": "Continued Claims", "value": "1.701M", "note": "New 2026 low, down from 1.719M", "asOf": "week of Sep 19, 2026" },
     { "label": "Nonfarm Payrolls", "value": "+162K", "note": "vs. 12-mo avg. of +31K/mo", "asOf": "August 2026" }
   ],
   "continuedClaimsSeries": [
@@ -26,6 +26,8 @@
     { "date": "2026-08-15", "value": 1771 },
     { "date": "2026-08-22", "value": 1775 },
     { "date": "2026-08-29", "value": 1774 },
-    { "date": "2026-09-05", "value": 1730, "note": "New 2026 low · latest" }
+    { "date": "2026-09-05", "value": 1730 },
+    { "date": "2026-09-12", "value": 1719 },
+    { "date": "2026-09-19", "value": 1701, "note": "New 2026 low · latest" }
   ]
 }
