@@ -1,19 +1,19 @@
 {
-  "asOf": "2026-10-22",
-  "updatedLabel": "Oct 22, 2026",
+  "asOf": "2026-10-29",
+  "updatedLabel": "Oct 29, 2026",
   "verdict": "calm",
   "verdictTitle": "No recession signal",
-  "verdictBody": "Claims-based indicators remain near their 2026 lows and little changed through mid-October. September payroll growth slowed to +29K with meaningful downward revisions to July and August — worth watching, but not yet reflected in the claims ratios.",
+  "verdictBody": "All three indicators remain well below trigger; continued and initial claims are hovering near their 2026 lows even as payroll growth has cooled following downward revisions to July and August.",
   "indicators": [
-    { "key": "off", "name": "I", "sup": "Off.", "formula": "Continued claims ÷ covered employment", "threshold": 0.20, "approxPosition": 0.05, "status": "calm", "statusLabel": "Not triggered", "readout": "The insured unemployment rate held flat at 1.1% for five straight weeks through Oct. 3, matching its 2026 low with no sign of climbing." },
-    { "key": "nfe", "name": "I", "sup": "NFE", "formula": "Continued claims ÷ nonfarm payrolls", "threshold": 0.20, "approxPosition": 0.06, "status": "calm", "statusLabel": "Not triggered", "readout": "Continued claims ticked up to 1.710M (week of Oct 3) from a Sep. 19 low of 1.699M, but remain near multi-month lows even as payroll growth slowed to +29K in September." },
-    { "key": "ic", "name": "I", "sup": "IC", "formula": "Initial claims ÷ nonfarm payrolls", "threshold": 0.035, "approxPosition": 0.04, "status": "calm", "statusLabel": "Not triggered", "readout": "Initial claims held near 198K-199K through mid-October, essentially flat and still well below levels that would signal labor-market stress." }
+    { "key": "off", "name": "I", "sup": "Off.", "formula": "Continued claims ÷ covered employment", "threshold": 0.20, "approxPosition": 0.04, "status": "calm", "statusLabel": "Not triggered", "readout": "Official IUR held at 1.1% through the week of Oct. 3 — unchanged from last update and still the cycle low." },
+    { "key": "nfe", "name": "I", "sup": "NFE", "formula": "Continued claims ÷ nonfarm payrolls", "threshold": 0.20, "approxPosition": 0.07, "status": "calm", "statusLabel": "Not triggered", "readout": "Continued claims touched a fresh 2026 low of 1.699M in mid-Sept. before ticking up to 1.728M by Oct. 10, while payroll growth slowed to +29K in Sept. (Aug. revised down to +133K)." },
+    { "key": "ic", "name": "I", "sup": "IC", "formula": "Initial claims ÷ nonfarm payrolls", "threshold": 0.035, "approxPosition": 0.03, "status": "calm", "statusLabel": "Not triggered", "readout": "Initial claims eased to 194K (week of Oct. 17), a two-plus-month low, after holding in a narrow 194K-200K band since mid-Sept." }
   ],
   "stats": [
-    { "label": "Insured Unemployment Rate", "value": "1.1%", "note": "Steady at 2026 low for 5 straight weeks", "asOf": "week of Oct 3, 2026" },
-    { "label": "Initial Claims", "value": "199K", "note": "Little changed, near multi-month low", "asOf": "week of Oct 10, 2026" },
-    { "label": "Continued Claims", "value": "1.710M", "note": "Ticked up from Sep 19 low of 1.699M", "asOf": "week of Oct 3, 2026" },
-    { "label": "Nonfarm Payrolls", "value": "+29K", "note": "Weak; July/Aug revised down a combined 60K", "asOf": "September 2026" }
+    { "label": "Insured Unemployment Rate", "value": "1.1%", "note": "Unchanged — still 2026 low", "asOf": "week of Oct 3, 2026" },
+    { "label": "Initial Claims", "value": "194K", "note": "2+ month low", "asOf": "week of Oct 17, 2026" },
+    { "label": "Continued Claims", "value": "1.728M", "note": "Up slightly from Sept. low of 1.699M", "asOf": "week of Oct 10, 2026" },
+    { "label": "Nonfarm Payrolls", "value": "+29K", "note": "Aug. revised down to +133K; 12-mo avg. +45K/mo", "asOf": "September 2026" }
   ],
   "continuedClaimsSeries": [
     { "date": "2025-11-08", "value": 1974, "note": "Peak — highest since 2021" },
@@ -27,7 +27,10 @@
     { "date": "2026-08-22", "value": 1775 },
     { "date": "2026-08-29", "value": 1774 },
     { "date": "2026-09-05", "value": 1730 },
+    { "date": "2026-09-12", "value": 1712 },
     { "date": "2026-09-19", "value": 1699, "note": "New 2026 low" },
-    { "date": "2026-10-03", "value": 1710, "note": "Latest" }
+    { "date": "2026-09-26", "value": 1714 },
+    { "date": "2026-10-03", "value": 1703 },
+    { "date": "2026-10-10", "value": 1728, "note": "Latest" }
   ]
 }
