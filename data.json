@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-11-19",
-  "updatedLabel": "Nov 19, 2026",
+  "asOf": "2026-11-26",
+  "updatedLabel": "Nov 26, 2026",
   "verdict": "calm",
   "verdictTitle": "No recession signal",
-  "verdictBody": "All three indicators remain well below trigger. Continued claims eased to a new 2026 low near 1.70M in late October even as initial claims held flat in the low-200Ks and October payroll growth stayed solid.",
+  "verdictBody": "All three indicators remain well below their recession thresholds. Initial and continued claims are near 2026 lows and payroll growth continued in October, with August and September revised up a combined 84K.",
   "indicators": [
     {
       "key": "off",
@@ -14,7 +14,7 @@
       "approxPosition": 0.03,
       "status": "calm",
       "statusLabel": "Not triggered",
-      "readout": "Continued claims eased to a new 2026 low of 1.697M (week of Oct. 31), keeping this ratio near the bottom of its range and far from the 0.20 trigger."
+      "readout": "Continued claims eased to 1.697M (week of Nov 14) after a brief early-November spike, alongside a steady insured unemployment rate of 1.1%."
     },
     {
       "key": "nfe",
@@ -25,7 +25,7 @@
       "approxPosition": 0.04,
       "status": "calm",
       "statusLabel": "Not triggered",
-      "readout": "Continued claims fell to 1.697M while payrolls grew a solid +165K in October, pushing this ratio further from the 0.20 threshold."
+      "readout": "Continued claims stayed near 2026 lows while nonfarm payrolls rose 165K in October, keeping the ratio well under trigger."
     },
     {
       "key": "ic",
@@ -33,17 +33,17 @@
       "sup": "IC",
       "formula": "Initial claims ÷ nonfarm payrolls",
       "threshold": 0.035,
-      "approxPosition": 0.04,
+      "approxPosition": 0.02,
       "status": "calm",
       "statusLabel": "Not triggered",
-      "readout": "Initial claims held in a narrow 191K-200K band through early November (200K the week of Nov. 7), showing no meaningful climb toward the threshold."
+      "readout": "Initial claims fell to 189K (week of Nov 21), a new low for the year, against continued payroll gains."
     }
   ],
   "stats": [
-    { "label": "Insured Unemployment Rate", "value": "1.1%", "note": "Unchanged for 5 straight weeks", "asOf": "week of Nov 7, 2026" },
-    { "label": "Initial Claims", "value": "200K", "note": "In a 191K-200K band since early Oct.", "asOf": "week of Nov 7, 2026" },
-    { "label": "Continued Claims", "value": "1.697M", "note": "New 2026 low, down from 1.730M", "asOf": "week of Oct 31, 2026" },
-    { "label": "Nonfarm Payrolls", "value": "+165K", "note": "vs. 12-mo avg. of +48K/mo", "asOf": "October 2026" }
+    { "label": "Insured Unemployment Rate", "value": "1.1%", "note": "Flat for two months", "asOf": "week of Nov 7, 2026" },
+    { "label": "Initial Claims", "value": "189K", "note": "New 2026 low", "asOf": "week of Nov 21, 2026" },
+    { "label": "Continued Claims", "value": "1.697M", "note": "Near 2026 low after early-Nov spike reversed", "asOf": "week of Nov 14, 2026" },
+    { "label": "Nonfarm Payrolls", "value": "+165K", "note": "vs. 12-mo avg of +48K/mo; Aug/Sep revised up 84K combined", "asOf": "October 2026" }
   ],
   "continuedClaimsSeries": [
     { "date": "2025-11-08", "value": 1974, "note": "Peak — highest since 2021" },
@@ -57,6 +57,10 @@
     { "date": "2026-08-22", "value": 1775 },
     { "date": "2026-08-29", "value": 1774 },
     { "date": "2026-09-05", "value": 1730 },
-    { "date": "2026-10-31", "value": 1697, "note": "New 2026 low · latest" }
+    { "date": "2026-10-17", "value": 1695 },
+    { "date": "2026-10-24", "value": 1717 },
+    { "date": "2026-10-31", "value": 1693, "note": "New 2026 low" },
+    { "date": "2026-11-07", "value": 1792, "note": "Brief uptick" },
+    { "date": "2026-11-14", "value": 1697, "note": "Latest" }
   ]
 }
